@@ -63,8 +63,8 @@ public class Metodos {
         return palabras;
     }
 
-        public void printArregloPalabras(int[] arreglo) {
-        for (int elemento : arreglo) {
+        public void printArregloPalabras(String[] arreglo) {
+        for (String elemento : arreglo) {
             System.out.print(elemento+" ");
         }
     }

@@ -14,7 +14,7 @@ public class App {
         String cadena  = "este es un ejemplo de texto para ordenar";
         String[] palabras=cadena.split(" ");
         String[] palabrasOrdenara = metodosBubble.sortByBubblePalabras(palabras);
-        metodosBubble.printArregloPalabras(palabrasOrdenara);
+        metodosBubble.printArregloPalabras(palabras);
     }
 
 }
